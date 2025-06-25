@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Registration</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h1>🚀</h1>
+      <h2>Welcome</h2>
+      <p>to the <br/>RegisterR</p>
+    <a href="/login" class="login-btn tab active">Login</a>
+    <a href="/" class="login-btn tab active">Home</a>
+    </div>
+
+    <div class="right-panel">
+      <div class="form-header">
+      
+          <a href="/login" class="btn btn-custom tab ">Login</a>
+      <a href="/register" class="btn btn-custom tab active">Register</a>
+    
+      </div>
+
+      <h2>Employee Registration Form</h2>
+
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="First Name *" required />
+          <input type="text" placeholder="Last Name *" required />
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="Your Email *" required />
+          <input type="number" placeholder="Enter Your Age *" required />
+        </div>
+        <div class="form-row">
+          <input type="tel" placeholder="Your Phone *" required />
+          <input type="password" placeholder="Password *" required />
+        </div>
+
+
+        <div class="form-row gender-row">
+          <label class="gender-label">Gender *</label>
+          <div class="gender-options">
+            <input type="radio" id="male" name="gender" value="male" required />
+            <label for="male" class="gender-btn">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" required />
+            <label for="female" class="gender-btn">Female</label>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <input type="password" placeholder="Confirm Password *" required />
+        </div>
+
+        <button type="submit" class="register-btn mb-5">Register</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
